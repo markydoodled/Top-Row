@@ -20,6 +20,7 @@
 		D57E01EA2BC88BCD0061DFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57E01ED2BC88BCD0061DFC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D57E01EF2BC88BCD0061DFC7 /* Top_Row.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Top_Row.entitlements; sourceTree = "<group>"; };
+		D57E02112BC934BF0061DFC7 /* Top-Row-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Top-Row-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		D57E01E52BC88BCA0061DFC7 /* Top Row */ = {
 			isa = PBXGroup;
 			children = (
+				D57E02112BC934BF0061DFC7 /* Top-Row-Info.plist */,
 				D57E01E62BC88BCA0061DFC7 /* Top_RowApp.swift */,
 				D57E01E82BC88BCA0061DFC7 /* ContentView.swift */,
 				D57E01EA2BC88BCD0061DFC7 /* Assets.xcassets */,
@@ -273,12 +275,13 @@
 				CODE_SIGN_ENTITLEMENTS = "Top Row/Top_Row.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Top Row/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Top-Row-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2024 Mark Howard";
@@ -303,12 +306,13 @@
 				CODE_SIGN_ENTITLEMENTS = "Top Row/Top_Row.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Top Row/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Top-Row-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2024 Mark Howard";
