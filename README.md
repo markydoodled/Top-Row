@@ -3,7 +3,7 @@ Display Editable Text In The macOS Menu Bar To Store A Reminder, Note Or Message
 
 ## App Store Link
 
-[Click Here...]()
+[Click Here...](https://apps.apple.com/gb/app/top-row/id6496265422?mt=12)
 
 ## Features
 
