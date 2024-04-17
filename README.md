@@ -1,4 +1,4 @@
-# Top-Row
+# Top Row
 Display Editable Text In The macOS Menu Bar To Store A Reminder, Note Or Message. 
 
 ## App Store Link
@@ -7,6 +7,7 @@ Display Editable Text In The macOS Menu Bar To Store A Reminder, Note Or Message
 
 ## Features
 
+- macOS
 - Store A Text Based Message In The Menu Bar
 
 ## GitHub Releases
