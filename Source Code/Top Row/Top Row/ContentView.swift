@@ -21,9 +21,9 @@ struct ContentView: View {
             Spacer()
             TextField("Message", text: $messageText, prompt: Text("Enter Your Message Here..."))
             Spacer()
-            Text("Version - 1.0")
+            Text("Version - 1.1")
                 .foregroundStyle(.secondary)
-            Text("Build - 2")
+            Text("Build - 1")
                 .foregroundStyle(.secondary)
             Text("© 2024 Mark Howard")
                 .foregroundStyle(.secondary)
@@ -31,6 +31,7 @@ struct ContentView: View {
             Button(action: {NSApplication.shared.terminate(self)}) {
                 Text("Quit")
             }
+            .buttonStyle(.borderedProminent)
             Spacer()
         }
         .padding()
