@@ -23,7 +23,7 @@ struct ContentView: View {
             Spacer()
             Text("Version - 1.1")
                 .foregroundStyle(.secondary)
-            Text("Build - 1")
+            Text("Build - 3")
                 .foregroundStyle(.secondary)
             Text("© 2024 Mark Howard")
                 .foregroundStyle(.secondary)
