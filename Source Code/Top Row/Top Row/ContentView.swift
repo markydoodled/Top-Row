@@ -28,10 +28,15 @@ struct ContentView: View {
             Text("© 2024 Mark Howard")
                 .foregroundStyle(.secondary)
             Spacer()
-            Button(action: {NSApplication.shared.terminate(self)}) {
-                Text("Quit")
+            HStack {
+               Button("Tip Jar") {
+                    openWindow("tip-jar")
+               }
+               Button(action: {NSApplication.shared.terminate(self)}) {
+                   Text("Quit")
+               }
+               .buttonStyle(.borderedProminent)
             }
-            .buttonStyle(.borderedProminent)
             Spacer()
         }
         .padding()
