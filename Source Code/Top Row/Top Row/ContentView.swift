@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var messageText = ""
+    @Environment(\.openWindow) var openWindow
     var body: some View {
         VStack {
             Spacer()
@@ -21,21 +22,31 @@ struct ContentView: View {
             Spacer()
             TextField("Message", text: $messageText, prompt: Text("Enter Your Message Here..."))
             Spacer()
-            Text("Version - 1.2")
+            Text("Version - \(Bundle.main.buildVersionNumber ?? "")")
                 .foregroundStyle(.secondary)
-            Text("Build - 4")
+            Text("Build - \(Bundle.main.releaseVersionNumber ?? "")")
                 .foregroundStyle(.secondary)
             Text("© 2024 Mark Howard")
                 .foregroundStyle(.secondary)
             Spacer()
             HStack {
-               Button("Tip Jar") {
-                    openWindow("tip-jar")
-               }
-               Button(action: {NSApplication.shared.terminate(self)}) {
-                   Text("Quit")
-               }
-               .buttonStyle(.borderedProminent)
+                Link("Portfolio", destination: URL(string: "https://markydoodled.com/")!)
+                    .buttonStyle(.bordered)
+                Link("GitHub Repo", destination: URL(string: "https://github.com/markydoodled/Top-Row")!)
+                    .buttonStyle(.bordered)
+            }
+            Spacer()
+            HStack {
+                Button("Tip Jar") {
+                    openWindow(id: "tip-jar")
+                }
+                Button("Feedback") {
+                    SendEmail.send()
+                }
+                Button("Quit") {
+                    NSApplication.shared.terminate(self)
+                }
+                .buttonStyle(.borderedProminent)
             }
             Spacer()
         }
@@ -47,6 +58,24 @@ struct ContentView: View {
                 Top_RowApp().barText = messageText
             }
         }
+    }
+}
+
+extension Bundle {
+    var buildVersionNumber: String? {
+        return infoDictionary?["CFBundleVersion"] as? String
+    }
+    var releaseVersionNumber: String? {
+        return infoDictionary?["CFBundleShortVersionString"] as? String
+    }
+}
+
+class SendEmail: NSObject {
+    static func send() {
+        let service = NSSharingService(named: NSSharingService.Name.composeEmail)!
+        service.recipients = ["markhoward@markydoodled.com"]
+        service.subject = "Top Row Feedback"
+        service.perform(withItems: ["Please Fill Out All Relevant Sections:", "Report A Bug - ", "Rate The App - ", "Suggest An Improvement - "])
     }
 }
 
