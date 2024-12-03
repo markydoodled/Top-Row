@@ -1,0 +1,125 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "5EDC6404",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "6738776249",
+      "localizations" : [
+        {
+          "description" : "A Huge Contribution To Buy Me Lunch!",
+          "displayName" : "Large Tip",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "top_row_large_tip",
+      "referenceName" : "Top Row Large Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6738776222",
+      "localizations" : [
+        {
+          "description" : "A Medium Contribution To Buy Me A Coffee!",
+          "displayName" : "Medium Tip",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "top_row_medium_tip",
+      "referenceName" : "Top Row Medium Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "6738775724",
+      "localizations" : [
+        {
+          "description" : "A Small Contribution To Say Thanks!",
+          "displayName" : "Small Tip",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "top_row_small_tip",
+      "referenceName" : "Top Row Small Tip",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6496265422",
+    "_developerTeamID" : "ZWASU9HFBU",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 754481407.91814995,
+    "_locale" : "en_GB",
+    "_storefront" : "GBR",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

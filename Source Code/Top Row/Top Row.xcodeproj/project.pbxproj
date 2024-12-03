@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51B01962CF870E200A29206 /* Top Row IAPs.storekit in Resources */ = {isa = PBXBuildFile; fileRef = D51B01952CF870E200A29206 /* Top Row IAPs.storekit */; };
+		D51B01DC2CF874B400A29206 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B01DB2CF874B400A29206 /* TipView.swift */; };
 		D57E01E72BC88BCA0061DFC7 /* Top_RowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E01E62BC88BCA0061DFC7 /* Top_RowApp.swift */; };
 		D57E01E92BC88BCA0061DFC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E01E82BC88BCA0061DFC7 /* ContentView.swift */; };
 		D57E01EB2BC88BCD0061DFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57E01EA2BC88BCD0061DFC7 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D51B01952CF870E200A29206 /* Top Row IAPs.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Top Row IAPs.storekit"; sourceTree = "<group>"; };
+		D51B01DB2CF874B400A29206 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		D57E01E32BC88BCA0061DFC7 /* Top Row.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Row.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57E01E62BC88BCA0061DFC7 /* Top_RowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_RowApp.swift; sourceTree = "<group>"; };
 		D57E01E82BC88BCA0061DFC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 				D57E02112BC934BF0061DFC7 /* Top-Row-Info.plist */,
 				D57E01E62BC88BCA0061DFC7 /* Top_RowApp.swift */,
 				D57E01E82BC88BCA0061DFC7 /* ContentView.swift */,
+				D51B01952CF870E200A29206 /* Top Row IAPs.storekit */,
 				D57E01EA2BC88BCD0061DFC7 /* Assets.xcassets */,
 				D57E01EF2BC88BCD0061DFC7 /* Top_Row.entitlements */,
 				D57E01EC2BC88BCD0061DFC7 /* Preview Content */,
+				D51B01DB2CF874B400A29206 /* TipView.swift */,
 			);
 			path = "Top Row";
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			files = (
 				D57E01EE2BC88BCD0061DFC7 /* Preview Assets.xcassets in Resources */,
 				D57E01EB2BC88BCD0061DFC7 /* Assets.xcassets in Resources */,
+				D51B01962CF870E200A29206 /* Top Row IAPs.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 			files = (
 				D57E01E92BC88BCA0061DFC7 /* ContentView.swift in Sources */,
 				D57E01E72BC88BCA0061DFC7 /* Top_RowApp.swift in Sources */,
+				D51B01DC2CF874B400A29206 /* TipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +285,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Top Row/Top_Row.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 9;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Top Row/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
@@ -293,7 +301,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Top-Row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -309,7 +317,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Top Row/Top_Row.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 9;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Top Row/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
@@ -325,7 +333,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Top-Row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

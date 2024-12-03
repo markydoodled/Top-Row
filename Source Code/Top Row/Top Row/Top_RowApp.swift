@@ -15,5 +15,10 @@ struct Top_RowApp: App {
             ContentView()
         }
         .menuBarExtraStyle(.window)
+        Window("Tip Jar", id: "tip-jar") {
+            TipView()
+                .frame(minWidth: 550, maxWidth: 550, minHeight: 480, maxHeight: 480)
+        }
+        .windowResizability(.contentSize)
     }
 }
