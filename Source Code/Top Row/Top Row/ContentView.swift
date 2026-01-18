@@ -26,7 +26,7 @@ struct ContentView: View {
                 .foregroundStyle(.secondary)
             Text("Build - \(Bundle.main.buildVersionNumber ?? "")")
                 .foregroundStyle(.secondary)
-            Text("© 2024 Mark Howard")
+            Text("© 2026 Mark Howard")
                 .foregroundStyle(.secondary)
             Spacer()
             HStack {
